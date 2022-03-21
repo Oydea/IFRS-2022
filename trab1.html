@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trabalho 1</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <h1>Primeiro Bimestre - Trabalho 1</h1>
+        <p>Aqui estão os textos em <i>italic</i> e em <b>bold</b>.</p>
+        <ul type="disc">
+            <li>
+                Frutas
+                <ol type="1">
+                    <li>Banana</li>
+                    <li>Maçã</li>
+                    <li>Abacate</li>
+                </ol>
+            </li>
+            <li>
+                Vegetais
+                <ol type="I">
+                    <li>Cebola</li>
+                    <li>
+                        Pimentão
+                        <ol type="a">
+                            <li>Verde</li>
+                            <li>Vermelho</li>
+                            <li>Amarelo</li>
+                        </ol>
+                    </li>
+                    <li>Tomate</li>
+                </ol>
+            </li>
+        </ul>
+        <table>
+            <caption>
+                <b>Lucro por mês</b>
+            </caption>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th colspan="2">Frutas</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Banana</th>
+                    <th>Maçã</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+        <a href="https://ifrs.edu.br/"><img src="ifrs.png" width="384" height="540"
+                alt="cliqueaquiparairaositedoifrs" /></a>
+        <figure>
+            <figcaption>Royal Dominguez, o capitão falecido do Limoncello.</figcaption>
+            <img src="./img/royaldominguez.png" alt="LIMONCELLO">
+        </figure>
+        <form>
+            <fieldset>
+                <legend>Questionário Principal:</legend>
+                <label for="type">Informe sua categoria:</label>
+                <select id="type">
+                    <option>Humano Alterado</option>
+                    <option>Humano Normal</option>
+                    <option>Morto-Vivo</option>
+                    <option>Construto</option>
+                    <option>Outro</option>
+                </select>
+                <br>
+                <label for="name">Diga como quer ser chamado(a):</label>
+                <input type="text" id="name" placeholder="Ex: Jack">
+                <br>
+                <label for="room">Diga o número do seu quarto:</label>
+                <input type="number" id="room">
+            </fieldset>
+            <fieldset>
+                <legend>Questionário Descartável:</legend>
+                <label for="bday">Qual seu aniversário?</label>
+                <input type="date" id="bday">
+                <br>
+                <label for="color">Qual sua cor favorita??</label>
+                <input type="color" id="color">
+            </fieldset>
+        </form>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2oT4bnjlDNE" allow="autoplay" allowfullscreen></iframe>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
